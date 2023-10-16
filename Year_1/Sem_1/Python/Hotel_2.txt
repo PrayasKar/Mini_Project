@@ -1,0 +1,7 @@
+Hotel Sea View (building 2) Facilities :
+
+1. Terrance Swimming Pool
+2. Every room in First floor is Single bedroom and Second floor is 2 bedroom.
+3. This hotel has it's own restaurant (order time is between 9:00 a.m. to 11:30 p.m.)
+4. Breakfast is free.
+5. Terrace can be availed for birthday occasion and weeding ceremonies.
