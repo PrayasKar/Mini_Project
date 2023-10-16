@@ -50,7 +50,7 @@ def h1():
     a=input('Enter your name : ')
     n1=input('Enter the date till which you will stay (PLEASE ENTER THE DATE IN THIS FORMAT[YYYY-MM-DD]) : ')
     n=str(n1)
-    c=mysql.connector.connect(host='localhost',user='root',password='3469',database='hotel_management_system')
+    c=mysql.connector.connect(host='localhost',user='root',password='0001',database='hotel_management_system')
     cur=c.cursor()
     cur.execute("select * from hotel_1")
     print('(floor_no,no_of_room,vacancy)')
@@ -190,7 +190,7 @@ def h2():
     a=input('Enter your name : ')
     n1=input('Enter the date till which you will stay (PLEASE ENTER THE DATE IN THIS FORMAT[YYYY-MM-DD]) : ')
     n=str(n1)
-    c=mysql.connector.connect(host='localhost',user='root',password='3469',database='hotel_management_system')
+    c=mysql.connector.connect(host='localhost',user='root',password='0001',database='hotel_management_system')
     cur=c.cursor()
     cur.execute("select * from hotel_2")
     print('(floor_no,no_of_room,vacancy)')
@@ -296,7 +296,7 @@ def h2():
 #__________________________________________________________________________________________________________________________________________________#
 
 def empinfo():
-    c=mysql.connector.connect(host='localhost',user='root',password='3469',database='hotel_management_system')
+    c=mysql.connector.connect(host='localhost',user='root',password='0001',database='hotel_management_system')
     cur=c.cursor()
     print("Please register yourself to hotel's employee databse ")
     a=input('Please enter your name : ')
