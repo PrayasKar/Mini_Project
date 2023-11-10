@@ -2,7 +2,7 @@ import mysql.connector
 
 def choice():
     print("Are you a emplyee or are you a customer?? ")
-    print("Please enter your class ['Employee' or 'Customer']")
+    print("Please enter your designation ['Employee' or 'Customer']")
     a=input('Enter : ')
     if a=='Employee' or a=='employee':
         emp()
